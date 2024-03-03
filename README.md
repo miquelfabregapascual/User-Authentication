@@ -6,16 +6,39 @@ Java project for creating user,  check login and group management.
 - Java
 - Apache NetBeans IDE
 
-## Overview:
+## Overview
 
 The project consists of three main exercises aimed at demonstrating fundamental programming skills:
 
-- **Exercise1:** This exercise allows users to input usernames and passwords, which are then stored in a text file.
+### Exercise1
 
-- **Exercise2:** Users can log in by providing their username and password. The program checks the credentials against the stored data in the text file.
+This exercise allows users to input usernames and passwords, which are then stored in a text file.
 
-- **Exercise3:** Users can input group names, which are then stored in another text file. The program checks for existing groups to prevent duplication.
+![Exercici1 Screenshot](/Images/exercise1.png)
 
+### Exercise2
+
+Users can log in by providing their username and password. The program checks the credentials against the stored data in the text file.
+
+#### Successful Login:
+
+![Exercici2 Successful Login](/Images/exercise2Login.png)
+
+#### Failed Login:
+
+![Exercici2 Failed Login](/Images/exercise2fail.png)
+
+### Exercise3
+
+Users can input group names, which are then stored in another text file. The program checks for existing groups to prevent duplication.
+
+#### Group Exists:
+
+![Exercici3 Group Exists](/Images/groupExist.png)
+
+#### Group Doesn't Exist:
+
+![Exercici3 Group Doesn't Exist](/Images/groupdoesntexist.png)
 ## How to Run:
 
 To run the project:
@@ -24,4 +47,4 @@ To run the project:
 2. Open the project in Apache NetBeans IDE.
 3. Compile and run the `Practica2.java` file.
 
-## Screenshots:
+
